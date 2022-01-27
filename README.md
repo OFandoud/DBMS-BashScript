@@ -29,11 +29,10 @@ $ ./main.sh
 ```
 
 ## Contributors
-Omar Fandoud: https://github.com/OFandoud <br>
-Ismael Atallah: https://github.com/IsmaelAtallah
+
 
 |![Omar Fandoud](images/omar.jpg)|![Ismael Atallah](images/som3a.png)|
-|:-----------------:|:-----------:|:-----------------:|
+|:-----------------:|:-----------:
 |[Omar Fandoud](https://github.com/OFandoud)|[Ismael Atallah](https://github.com/IsmaelAtallah)|
 
 ## License
