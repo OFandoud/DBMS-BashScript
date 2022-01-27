@@ -7,7 +7,7 @@ mkdir Data 2>> ./.error.log
 clear
 fi
 echo "Welcome To DBMS app using Bash Script.."
-echo -e "\nAUTHOR\nWritten by: Omar Fandoud & Ismael Atallah."
+echo -e "\nAUTHOR\nWritten by: Omar Fandoud & Ismael Atallah. "
 function mainMenu {
   echo -e "\n+---------Main Menu-------------+"
   echo "| 1. Select DB                  |"
