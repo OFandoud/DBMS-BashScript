@@ -31,7 +31,7 @@ $ ./main.sh
 ## Contributors
 
 
-|![Omar Fandoud](images/omar.jpg)|![Ismael Atallah](images/som3a.png)|
+|![Omar Fandoud](images/omar.png)|![Ismael Atallah](images/som3a.png)|
 |:-----------------:|:-----------:
 |[Omar Fandoud](https://github.com/OFandoud)|[Ismael Atallah](https://github.com/IsmaelAtallah)|
 
