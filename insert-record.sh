@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #it take DB name and table name as prameters 
 new=""
 numOfColumn=$(wc -l < Data/$1/.$2)

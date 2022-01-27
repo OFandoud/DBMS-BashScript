@@ -1,6 +1,12 @@
+#!/bin/bash
+
 PKNum=$(awk -F: '{if ($3==1) print NR;}' Data/$1/.$2) 
 PKName=$(awk -F: '{if ($3==1) print $1;}' Data/$1/.$2) 
-read -p "Enter $PKName value to delete the record :" input
+echo -e "\n====== Table containts ========"
+               cat Data/$1/$2
+echo "==========================="
+
+read -p "Enter $PKName value to delete the record :" input  
 isFound="$(cut -f$PKNum -d: Data/$1/$2 |grep -w $input)"
 
 if [ -n $isFound ]
@@ -9,5 +15,5 @@ then
     sed -i "$recordNumber d" Data/$1/$2
     echo "one Record is deleted"
 else
-    echo "${red}Not found any record match $val${reset}"
+    echo "Not found any record match "
 fi
